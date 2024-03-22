@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+}
+
+.border{
+    border: 1px solid #eee;
+}
+
+.padding30{
+    padding: 30px 0 !important;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.logoimg{
+    width: 120px;
+    height: 60px;
+}
+
+.navlist{
+    display: flex;
+    gap: 8px;
+    size: 18px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.active{
+    color:rgb(33, 187, 187) !important;
+}
+
+.navlist li a{
+    padding: 10px;
+    color: black;
+}
+
+
+.navlist li a:hover{
+    color:rgb(33, 187, 187)!important;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  font: black ;
+  margin: 0; 
+}
+
+.dropdown:hover .dropbtn {
+  background-color:rgb(3, 153, 227);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(3, 153, 227);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.banner{
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.textSection{
+    max-width: max-content;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainheading{
+    font-size: 3.5vmax;
+    font-weight: 700;
+    text-align: center;
+}
+
+.paragraph{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(33, 187, 187);
+    color: white;
+    max-width: max-content;
+}
+.button:hover{
+    background-color: rgb(17, 141, 141);
+    color: white;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    /* border-bottom: 1px solid #eee; */
+    background-color: #e9e1e143;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 16px;
+    width: 30%;
+    max-width: max-content;
+    padding: 10px;
+}
+.card:hover{
+    scale: 102%;
+    transition: 0.5s;
+}
+
+.cardimg img{
+    width: 200%;
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: 700;
+}
+.smallcarddiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid #eee;
+    
+}
+
+
+.mdheading{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 20px 100px;
+    color: #686868;
+    text-align: center;
+}
+
+.shorty{
+    font-size: small;
+}
+
+.smallcard{
+    display: flex;
+    gap: 8px;
+    width: 30%;
+    max-width: max-content;
+    padding: 10px;
+}
+.smallcard:hover{
+    scale: 102%;
+    transition: 0.5s;
+}
+/* 
+.footer{
+
+} */
+
+.footer1{
+    padding: 20px 10px;
+
+    background-color: #333;
+    color: white;
+    padding: 8px 20px;
+}
+
+.footer1> div{
+    width: 25%;
+    min-width: 200px;
+    gap: 20px;
+    padding: 30px 6px;
+}
+
+
+
+.footer2{
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    color: white;
+}
+
+.form{
+
+    gap: 20px;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #686868;
+    background-color: #494949;
+    border-radius: 10px;
+
+}
+/* footer css end here  */
