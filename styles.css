@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: black;
+}
+
+.border{
+    border: 1px solid #eee;
+}
+
+.padding30{
+    padding: 30px 0 !important;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.logoimg{
+    width: 120px;
+    height: 60px;
+}
+
+.navlist{
+    display: flex;
+    gap: 8px;
+    size: 18px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.active{
+    color:rgb(33, 187, 187) !important;
+}
+
+.navlist li a{
+    padding: 10px;
+    color: black;
+}
+.navlist li a:hover{
+    color:rgb(33, 187, 187)!important;
+}
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.imgcontainer{
+    width: 50%;
+    max-width: max-content;
+}
+
+.imgcontainer img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.textSection{
+    width: 50%;
+    max-width: max-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainheading{
+    font-size: 3.5vmax;
+    font-weight: 700;
+}
+
+.paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    color: #686868;
+}
+
+.button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(33, 187, 187);
+    color: white;
+    max-width: max-content;
+}
+.button:hover{
+    background-color: rgb(17, 141, 141);
+    color: white;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 30%;
+    max-width: max-content;
+    padding: 10px;
+}
+.card:hover{
+    scale: 102%;
+    transition: 0.5s;
+}
+
+.cardimg img{
+    width: 100%;
+}
+
+.heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+.smallcarddiv{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid #eee;
+}
+
+
+.mdheading{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 20px 100px;
+    color: #686868;
+    text-align: center;
+}
+
+
+.smallcard{
+    display: flex;
+    gap: 8px;
+    width: 30%;
+    max-width: max-content;
+    padding: 10px;
+}
+.smallcard:hover{
+    scale: 102%;
+    transition: 0.5s;
+}
+
+.smalltextdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 8px 4px;
+}
+
+.smallimg img{
+    width: 120px;
+}
+
+.smallheading{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.smallparagraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: #686868;
+}
+
+/* small card css end here  */
+
+/* footer css start here  */
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 8px 20px;
+}
+
+.footer1> div{
+    display: flex;
+    width: 25%;
+    min-width: 200px;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 6px;
+}
+.qlinks{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.footer2{
+    display: flex;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    color: white;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #686868;
+    background-color: #494949;
+    border-radius: 10px;
+
+}
+/* footer css end here  */
